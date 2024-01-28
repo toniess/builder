@@ -4,13 +4,6 @@
 #include <vector>
 #include <map>
 
-// Реализуйте класс SqlSelectQueryBuilder, который можно использовать для построения простых SELECT-запросов.
-
-// Пример использования:
-// SqlSelectQueryBuilder builder;
-// builder.select({"id", "name", "age"});
-// builder.from("students");
-// builder.where("age > 18");
 
 class SqlSelectQueryBuilder
 {
@@ -75,6 +68,9 @@ private:
     std::string where = "";
     std::string column = "";
 };
+
+
+
 
 int main()
 {
